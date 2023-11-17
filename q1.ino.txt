@@ -1,9 +1,0 @@
-void setup() {
-  Serial.begin(9600); // Initialize serial communication at 9600 baud
-}
-
-void loop() {
-  String myString = "Hello, this is a test string!";
-  Serial.println(myString); // Print the string to the Serial Monitor
-  delay(1000); // Delay for 1 second
-}
