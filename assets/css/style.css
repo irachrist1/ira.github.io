@@ -267,6 +267,13 @@ h6 {
 }
 
 @media (max-width: 768px) {
+
+  #hero{
+    background: url("/assets/img/hero-bg-mobile.png") top center; /* Mobile background */
+    background-size: cover;
+
+  }
+
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
